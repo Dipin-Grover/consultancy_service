@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PaperPandit | Passport, Property Tax, PAN, RTO Documentation Services in Gurugram</title>
+    <title>AAA consultation | Passport, Property Tax, PAN, RTO Documentation Services in Gurugram</title>
     <meta name="description"
-        content="PaperPandit — Gurugram's trusted partner for Government & Private documentation. Passport, Property Tax, PAN Card, Aadhaar, RTO, Certificates, Gazette, Deeds. Call +91 98188 99228." />
+        content="AAA consultation — Gurugram's trusted partner for Government & Private documentation. Passport, Property Tax, PAN Card, Aadhaar, RTO, Certificates, Gazette, Deeds. Call +91 98188 99228." />
     <meta name="keywords"
         content="documentation services Gurugram, passport agent Gurugram, property tax Haryana, PAN card agent, RTO services, sarkari kaam, Aadhaar update, gazette notification, liaison services Haryana, PaperPandit" />
-    <meta name="author" content="PaperPandit" />
+    <meta name="author" content="AAA consultation" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
@@ -82,12 +82,12 @@
                 <div class="col-lg-6">
                     <div class="hero-image-wrap">
                         <img src="assets/images/main_page_images/hero_section_image.png"
-                            alt="PaperPandit Documentation Services" class="img-fluid hero-image" />
+                            alt="AAA consultation Documentation Services" class="img-fluid hero-image" />
                     </div>
                 </div>
             </div>
-
-            <div class="search-box-wrap">
+            <!-- seatch box -->
+            <!-- <div class="search-box-wrap">
                 <div class="row align-items-center g-3">
                     <div class="col-lg-4">
                         <h4 class="search-title">Find Your Required<br />Documentation Service</h4>
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row g-3 quick-services">
                 <div class="col-6 col-md-4 col-lg-3 col-xl">
@@ -158,98 +158,587 @@
 
     
 
-    <section class="why-section">
-  <div class="container">
+    
 
-    <div class="why-header">
-      <div class="why-tagline">
-        <span class="why-tagline-line"></span>
-        <span>Why Choose Us</span>
-        <span class="why-tagline-line"></span>
-      </div>
-      <h2 class="why-title">
-        Your Documents, <span class="text-highlight">Our Commitment</span>
-      </h2>
-      <p class="why-subtitle">
-        Simple process. Trusted experts. Hassle-free experience.
-      </p>
-    </div>
 
-    <div class="why-stage">
 
-      <div class="why-orbit">
-        <div class="why-circle-outer"></div>
-        <div class="why-circle-inner"></div>
+    <!-- services flip cards -->
+    <section class="services-section" id="services">
+        <div class="container">
 
-        <span class="why-dot why-dot-1"></span>
-        <span class="why-dot why-dot-2"></span>
-        <span class="why-dot why-dot-3"></span>
-        <span class="why-dot why-dot-4"></span>
-
-        <div class="why-center">
-          <div class="why-doc">
-            <div class="why-doc-back"></div>
-            <div class="why-doc-front">
-              <div class="why-doc-bar"></div>
-              <div class="why-doc-lines">
-                <span></span><span></span><span></span><span></span>
-              </div>
+            <div class="services-header text-center">
+                <div class="services-tagline">
+                    <span class="services-tagline-line"></span>
+                    <span>Our Core Services</span>
+                    <span class="services-tagline-line"></span>
+                </div>
+                <h2 class="services-title">
+                    Complete Government &amp; Legal <span class="text-highlight">Documentation Services</span>
+                </h2>
+                <p class="services-subtitle">
+                    Hover over any card (or tap on mobile) to flip and view complete documentation details.
+                </p>
             </div>
-            <div class="why-doc-check"><i class="bi bi-check-lg"></i></div>
-          </div>
+
+            <div id="serviceFilterNotice" class="service-filter-notice d-none">
+                <span id="serviceFilterText">Showing filtered services</span>
+                <button type="button" class="btn-reset-filter" id="resetServiceFilter">
+                    <i class="bi bi-x-circle me-1"></i>Show All 9 Services
+                </button>
+            </div>
+
+            <div class="row g-4" id="servicesGrid">
+                <div class="col-md-6 col-lg-4 service-card-col" data-service-id="passport" data-keywords="passport fresh renewal tatkaal pcc lost damaged appointment india">
+                    <div class="service-flip-card" tabindex="0" role="region" aria-label="Passport Work All Over India">
+                        <div class="service-flip-inner">
+                            <!-- Front Side: Image + Heading -->
+                            <div class="service-flip-front">
+                                <div class="service-flip-img-wrap">
+                                    <img src="https://images.moneycontrol.com/static-mcnews/2025/07/20250722170500_Passport-India.jpg?impolicy=website&width=1600&height=900" alt="Passport Work All Over India" class="service-flip-img" />
+                                    <span class="service-flip-num">01</span>
+                                    <div class="service-flip-icon-float">
+                                        <i class="bi bi-passport"></i>
+                                    </div>
+                                </div>
+                                <div class="service-flip-body">
+                                    <h4 class="service-flip-title">Passport Work All Over India</h4>
+                                    <p class="service-flip-sub">Fresh Passport, Renewal, Tatkaal & PCC Assistance</p>
+                                    <div class="service-flip-footer">
+                                        <span class="flip-hint">
+                                            <i class="bi bi-arrow-repeat"></i> Hover to View Details
+                                        </span>
+                                        <span class="flip-arrow-icon">
+                                            <i class="bi bi-arrow-up-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back Side: Full Details on Flip -->
+                            <div class="service-flip-back">
+                                <div class="service-back-top">
+                                    <div class="service-back-header">
+                                        <div class="service-back-icon">
+                                            <i class="bi bi-passport"></i>
+                                        </div>
+                                        <div>
+                                            <span class="service-back-tag">All Over India</span>
+                                            <h4 class="service-back-title">Passport Work All Over India</h4>
+                                        </div>
+                                    </div>
+                                    <p class="service-back-desc">Complete end-to-end passport documentation and appointment support across all Passport Seva Kendras in India.</p>
+                                    <ul class="service-detail-list">
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Fresh Passport & Re-issue / Renewal Application</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Urgent Tatkaal Passport & Early Slot Booking</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Police Clearance Certificate (PCC) & ECR Removal</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Lost / Damaged Passport & Name / Address Correction</span></li>
+                                    </ul>
+                                </div>
+                                <div class="service-back-actions">
+                                    <a href="#enquireModal" data-bs-toggle="modal" data-service="Passport Work All Over India" class="btn-flip-enquire">
+                                        Enquire Now <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                    <a href="https://wa.me/919818899228?text=Hello%20AAA%20Consultation,%20I%20need%20assistance%20with%20Passport%20Work." class="btn-flip-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp Enquiry for Passport Work All Over India">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 service-card-col" data-service-id="property-tax" data-keywords="property tax haryana mcg ulb ndc no dues name transfer assessment">
+                    <div class="service-flip-card" tabindex="0" role="region" aria-label="Property Tax All Over Haryana">
+                        <div class="service-flip-inner">
+                            <!-- Front Side: Image + Heading -->
+                            <div class="service-flip-front">
+                                <div class="service-flip-img-wrap">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfAGMHTH6Yqublrj13F3yns55cLwaPugN_929qHjCmYFAGMUKGhZ_VmpY&s=10" alt="Property Tax All Over Haryana" class="service-flip-img" />
+
+                                    <span class="service-flip-num">02</span>
+                                    <div class="service-flip-icon-float">
+                                        <i class="bi bi-house-check-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="service-flip-body">
+                                    <h4 class="service-flip-title">Property Tax All Over Haryana</h4>
+                                    <p class="service-flip-sub">ULB Haryana Property ID, Assessment & NDC</p>
+                                    <div class="service-flip-footer">
+                                        <span class="flip-hint">
+                                            <i class="bi bi-arrow-repeat"></i> Hover to View Details
+                                        </span>
+                                        <span class="flip-arrow-icon">
+                                            <i class="bi bi-arrow-up-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back Side: Full Details on Flip -->
+                            <div class="service-flip-back">
+                                <div class="service-back-top">
+                                    <div class="service-back-header">
+                                        <div class="service-back-icon">
+                                            <i class="bi bi-house-check-fill"></i>
+                                        </div>
+                                        <div>
+                                            <span class="service-back-tag">All Over Haryana</span>
+                                            <h4 class="service-back-title">Property Tax All Over Haryana</h4>
+                                        </div>
+                                    </div>
+                                    <p class="service-back-desc">Hassle-free Property ID rectification, self-assessment, and tax clearance across MCG Gurugram and all Haryana municipalities.</p>
+                                    <ul class="service-detail-list">
+                                        <li><i class="bi bi-check-circle-fill"></i><span>New Property ID Creation & Portal Mapping (NDC Haryana)</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Owner Name Transfer, Mobile & Area / Category Correction</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Property Tax Arrear Rebate, Interest Waiver & Objection Filing</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Official No Dues Certificate (NDC) for Registry</span></li>
+                                    </ul>
+                                </div>
+                                <div class="service-back-actions">
+                                    <a href="#enquireModal" data-bs-toggle="modal" data-service="Property Tax All Over Haryana" class="btn-flip-enquire">
+                                        Enquire Now <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                    <a href="https://wa.me/919818899228?text=Hello%20AAA%20Consultation,%20I%20need%20assistance%20with%20Property%20Tax%20in%20Haryana." class="btn-flip-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp Enquiry for Property Tax All Over Haryana">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 service-card-col" data-service-id="electricity-water" data-keywords="electricity dhbvn water mcg meter connection load transfer bill">
+                    <div class="service-flip-card" tabindex="0" role="region" aria-label="Electricity DHBVN | Water MCG Work">
+                        <div class="service-flip-inner">
+                            <!-- Front Side: Image + Heading -->
+                            <div class="service-flip-front">
+                                <div class="service-flip-img-wrap">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-5T6NVUd_D1PxI-0sDeSvjO7n3TIu0jmKIEUVgEQV0kgEg8EaOpPvL6E&s=10">
+
+                                    <span class="service-flip-num">03</span>
+                                    <div class="service-flip-icon-float">
+                                        <i class="bi bi-lightning-charge-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="service-flip-body">
+                                    <h4 class="service-flip-title">Electricity DHBVN | Water MCG Work</h4>
+                                    <p class="service-flip-sub">New Meter Connection, Load Extension & Name Change</p>
+                                    <div class="service-flip-footer">
+                                        <span class="flip-hint">
+                                            <i class="bi bi-arrow-repeat"></i> Hover to View Details
+                                        </span>
+                                        <span class="flip-arrow-icon">
+                                            <i class="bi bi-arrow-up-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back Side: Full Details on Flip -->
+                            <div class="service-flip-back">
+                                <div class="service-back-top">
+                                    <div class="service-back-header">
+                                        <div class="service-back-icon">
+                                            <i class="bi bi-lightning-charge-fill"></i>
+                                        </div>
+                                        <div>
+                                            <span class="service-back-tag">DHBVN & MCG</span>
+                                            <h4 class="service-back-title">Electricity DHBVN | Water MCG Work</h4>
+                                        </div>
+                                    </div>
+                                    <p class="service-back-desc">Dedicated liaison for DHBVN electricity connections and MCG Gurugram water & sewerage approvals.</p>
+                                    <ul class="service-detail-list">
+                                        <li><i class="bi bi-check-circle-fill"></i><span>New Domestic / Commercial Electricity Meter Connection (DHBVN)</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Electricity Load Extension, Reduction & Name Transfer</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>MCG Water & Sewerage Connection Approval & Regularization</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Meter Testing, Faulty Bill Correction & Final Settlement</span></li>
+                                    </ul>
+                                </div>
+                                <div class="service-back-actions">
+                                    <a href="#enquireModal" data-bs-toggle="modal" data-service="Electricity DHBVN | Water MCG Work" class="btn-flip-enquire">
+                                        Enquire Now <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                    <a href="https://wa.me/919818899228?text=Hello%20AAA%20Consultation,%20I%20need%20assistance%20with%20Electricity%20DHBVN%20/%20Water%20MCG%20Work." class="btn-flip-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp Enquiry for Electricity DHBVN | Water MCG Work">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 service-card-col" data-service-id="housing-huda" data-keywords="housing board huda hsvp transfer permission oc noc conveyance allotment">
+                    <div class="service-flip-card" tabindex="0" role="region" aria-label="Housing Board & HUDA Work">
+                        <div class="service-flip-inner">
+                            <!-- Front Side: Image + Heading -->
+                            <div class="service-flip-front">
+                                <div class="service-flip-img-wrap">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXj3rk7dqeab8VRaLzmj1UzKfVlxGW0_OFg6Rz71_ceXbqGagfDpnUHYY&s=10" alt="Housing Board & HUDA Work" class="service-flip-img" />
+                                    <span class="service-flip-num">04</span>
+                                    <div class="service-flip-icon-float">
+                                        <i class="bi bi-building-fill-check"></i>
+                                    </div>
+                                </div>
+                                <div class="service-flip-body">
+                                    <h4 class="service-flip-title">Housing Board & HUDA Work</h4>
+                                    <p class="service-flip-sub">Transfer Permission, Re-Allotment, OC & Conveyance</p>
+                                    <div class="service-flip-footer">
+                                        <span class="flip-hint">
+                                            <i class="bi bi-arrow-repeat"></i> Hover to View Details
+                                        </span>
+                                        <span class="flip-arrow-icon">
+                                            <i class="bi bi-arrow-up-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back Side: Full Details on Flip -->
+                            <div class="service-flip-back">
+                                <div class="service-back-top">
+                                    <div class="service-back-header">
+                                        <div class="service-back-icon">
+                                            <i class="bi bi-building-fill-check"></i>
+                                        </div>
+                                        <div>
+                                            <span class="service-back-tag">HSVP / HUDA</span>
+                                            <h4 class="service-back-title">Housing Board & HUDA Work</h4>
+                                        </div>
+                                    </div>
+                                    <p class="service-back-desc">Expert documentation and estate office follow-ups for HSVP (HUDA) and Haryana Housing Board properties.</p>
+                                    <ul class="service-detail-list">
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Sale / Transfer Permission & Re-Allotment Letter</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Occupation Certificate (OC), Completion & Building Plan Approval</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Conveyance Deed Execution & Mortgage Permission / NOC</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Legal Heir Transfer & Duplicate Property File Assistance</span></li>
+                                    </ul>
+                                </div>
+                                <div class="service-back-actions">
+                                    <a href="#enquireModal" data-bs-toggle="modal" data-service="Housing Board & HUDA Work" class="btn-flip-enquire">
+                                        Enquire Now <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                    <a href="https://wa.me/919818899228?text=Hello%20AAA%20Consultation,%20I%20need%20assistance%20with%20Housing%20Board%20&%20HUDA%20Work." class="btn-flip-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp Enquiry for Housing Board & HUDA Work">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 service-card-col" data-service-id="rto-transport" data-keywords="rto transport driving licence dl rc transfer noc hypothecation vehicle">
+                    <div class="service-flip-card" tabindex="0" role="region" aria-label="Transport Authority Work">
+                        <div class="service-flip-inner">
+                            <!-- Front Side: Image + Heading -->
+                            <div class="service-flip-front">
+                                <div class="service-flip-img-wrap">
+                                    <img src="https://cf-images.assettype.com/newindianexpress%2F2026-02-06%2Fk289kpyb%2Ftransport.jpg?w=480&auto=format%2Ccompress&fit=max" alt="Transport Authority Work" class="service-flip-img" />
+                                    <span class="service-flip-num">05</span>
+                                    <div class="service-flip-icon-float">
+                                        <i class="bi bi-car-front-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="service-flip-body">
+                                    <h4 class="service-flip-title">Transport Authority Work</h4>
+                                    <p class="service-flip-sub">Driving Licence, RC Transfer, NOC & Hypothecation</p>
+                                    <div class="service-flip-footer">
+                                        <span class="flip-hint">
+                                            <i class="bi bi-arrow-repeat"></i> Hover to View Details
+                                        </span>
+                                        <span class="flip-arrow-icon">
+                                            <i class="bi bi-arrow-up-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back Side: Full Details on Flip -->
+                            <div class="service-flip-back">
+                                <div class="service-back-top">
+                                    <div class="service-back-header">
+                                        <div class="service-back-icon">
+                                            <i class="bi bi-car-front-fill"></i>
+                                        </div>
+                                        <div>
+                                            <span class="service-back-tag">RTO Authority</span>
+                                            <h4 class="service-back-title">Transport Authority Work</h4>
+                                        </div>
+                                    </div>
+                                    <p class="service-back-desc">Fast-track RTO and Regional Transport Authority documentation for personal and commercial vehicles.</p>
+                                    <ul class="service-detail-list">
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Learner, Permanent, Renewal & International Driving Licence</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Vehicle RC Ownership Transfer & Inter-State NOC Issuance</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Bank Loan Hypothecation Addition / Termination (HP Removal)</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Duplicate RC, Fitness Certificate, Permit & VIP Number Booking</span></li>
+                                    </ul>
+                                </div>
+                                <div class="service-back-actions">
+                                    <a href="#enquireModal" data-bs-toggle="modal" data-service="Transport Authority Work" class="btn-flip-enquire">
+                                        Enquire Now <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                    <a href="https://wa.me/919818899228?text=Hello%20AAA%20Consultation,%20I%20need%20assistance%20with%20Transport%20Authority%20(RTO)%20Work." class="btn-flip-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp Enquiry for Transport Authority Work">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 service-card-col" data-service-id="certificates-pan" data-keywords="birth certificate death certificate pan card correction registration">
+                    <div class="service-flip-card" tabindex="0" role="region" aria-label="Birth Certificate | Death Certificate | PAN Card">
+                        <div class="service-flip-inner">
+                            <!-- Front Side: Image + Heading -->
+                            <div class="service-flip-front">
+                                <div class="service-flip-img-wrap">
+                                    <img src="https://images.goodreturns.in/img/2023/09/birth-certificate-1694776378.jpg" alt="Birth Certificate | Death Certificate | PAN Card" class="service-flip-img" />
+                                    <span class="service-flip-num">06</span>
+                                    <div class="service-flip-icon-float">
+                                        <i class="bi bi-file-earmark-medical-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="service-flip-body">
+                                    <h4 class="service-flip-title">Birth Certificate | Death Certificate | PAN Card</h4>
+                                    <p class="service-flip-sub">Registration, Late Entry, Name Addition & PAN Updates</p>
+                                    <div class="service-flip-footer">
+                                        <span class="flip-hint">
+                                            <i class="bi bi-arrow-repeat"></i> Hover to View Details
+                                        </span>
+                                        <span class="flip-arrow-icon">
+                                            <i class="bi bi-arrow-up-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back Side: Full Details on Flip -->
+                            <div class="service-flip-back">
+                                <div class="service-back-top">
+                                    <div class="service-back-header">
+                                        <div class="service-back-icon">
+                                            <i class="bi bi-file-earmark-medical-fill"></i>
+                                        </div>
+                                        <div>
+                                            <span class="service-back-tag">Civil & Tax ID</span>
+                                            <h4 class="service-back-title">Birth Certificate | Death Certificate | PAN Card</h4>
+                                        </div>
+                                    </div>
+                                    <p class="service-back-desc">End-to-end municipal registration, delayed entry approvals, and NSDL/UTIITSL PAN card services.</p>
+                                    <ul class="service-detail-list">
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Birth & Death Certificate Registration & Certified Copies</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Child Name Addition & Spelling / Date Correction in Certificate</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Delayed Birth / Death Registration (SDM Order Liaison)</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>New PAN Card, Instant e-PAN, Reprint & Demographic Correction</span></li>
+                                    </ul>
+                                </div>
+                                <div class="service-back-actions">
+                                    <a href="#enquireModal" data-bs-toggle="modal" data-service="Birth Certificate | Death Certificate | PAN Card" class="btn-flip-enquire">
+                                        Enquire Now <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                    <a href="https://wa.me/919818899228?text=Hello%20AAA%20Consultation,%20I%20need%20assistance%20with%20Birth/Death%20Certificate%20or%20PAN%20Card." class="btn-flip-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp Enquiry for Birth Certificate | Death Certificate | PAN Card">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 service-card-col" data-service-id="pf-gazette" data-keywords="provident fund pf epfo name change gazette notification uan kyc">
+                    <div class="service-flip-card" tabindex="0" role="region" aria-label="Provident Fund | Name Change & Gazette Notification">
+                        <div class="service-flip-inner">
+                            <!-- Front Side: Image + Heading -->
+                            <div class="service-flip-front">
+                                <div class="service-flip-img-wrap">
+                                    <img src="https://media.istockphoto.com/id/1029298524/photo/jar-with-money-and-label-provident-fund-pf.jpg?s=612x612&w=0&k=20&c=BDCdTsKR77qE2BK051H6wztykJpXxssVw3RipvmI8_Q=" alt="Provident Fund | Name Change & Gazette Notification" class="service-flip-img" />
+                                    <span class="service-flip-num">07</span>
+                                    <div class="service-flip-icon-float">
+                                        <i class="bi bi-journal-bookmark-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="service-flip-body">
+                                    <h4 class="service-flip-title">Provident Fund | Name Change & Gazette Notification</h4>
+                                    <p class="service-flip-sub">EPFO Claim Settlement, Affidavit & Official Gazette</p>
+                                    <div class="service-flip-footer">
+                                        <span class="flip-hint">
+                                            <i class="bi bi-arrow-repeat"></i> Hover to View Details
+                                        </span>
+                                        <span class="flip-arrow-icon">
+                                            <i class="bi bi-arrow-up-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back Side: Full Details on Flip -->
+                            <div class="service-flip-back">
+                                <div class="service-back-top">
+                                    <div class="service-back-header">
+                                        <div class="service-back-icon">
+                                            <i class="bi bi-journal-bookmark-fill"></i>
+                                        </div>
+                                        <div>
+                                            <span class="service-back-tag">EPFO & Gazette</span>
+                                            <h4 class="service-back-title">Provident Fund | Name Change & Gazette Notification</h4>
+                                        </div>
+                                    </div>
+                                    <p class="service-back-desc">Complete resolution for stuck PF withdrawals and legally valid Central/State Gazette name or gender change notifications.</p>
+                                    <ul class="service-detail-list">
+                                        <li><i class="bi bi-check-circle-fill"></i><span>EPFO PF Withdrawal, Pension (EPS) Claim & UAN Activation</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>PF KYC Approval, Name / DOB Mismatch & Multiple UAN Merger</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Name Change Affidavit Drafting & 2-Newspaper Ad Publication</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Central & State Government Gazette Notification Filing</span></li>
+                                    </ul>
+                                </div>
+                                <div class="service-back-actions">
+                                    <a href="#enquireModal" data-bs-toggle="modal" data-service="Provident Fund | Name Change & Gazette Notification" class="btn-flip-enquire">
+                                        Enquire Now <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                    <a href="https://wa.me/919818899228?text=Hello%20AAA%20Consultation,%20I%20need%20assistance%20with%20Provident%20Fund%20or%20Name%20Change%20&%20Gazette%20Notification." class="btn-flip-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp Enquiry for Provident Fund | Name Change & Gazette Notification">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 service-card-col" data-service-id="aadhaar-voter-marriage" data-keywords="aadhaar aadhar card voter id marriage certificate update registration">
+                    <div class="service-flip-card" tabindex="0" role="region" aria-label="Aadhaar Card | Voter ID | Marriage Certificate">
+                        <div class="service-flip-inner">
+                            <!-- Front Side: Image + Heading -->
+                            <div class="service-flip-front">
+                                <div class="service-flip-img-wrap">
+                                    <img src="https://images.moneycontrol.com/static-mcnews/2025/04/20250404112835_Aadhaar-card-generated-using-AI.png?impolicy=website&width=1600&height=900" alt="Aadhaar Card | Voter ID | Marriage Certificate" class="service-flip-img" />
+                                    <span class="service-flip-num">08</span>
+                                    <div class="service-flip-icon-float">
+                                        <i class="bi bi-person-vcard-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="service-flip-body">
+                                    <h4 class="service-flip-title">Aadhaar Card | Voter ID | Marriage Certificate</h4>
+                                    <p class="service-flip-sub">Aadhaar Update, Voter EPIC & Court Marriage Registration</p>
+                                    <div class="service-flip-footer">
+                                        <span class="flip-hint">
+                                            <i class="bi bi-arrow-repeat"></i> Hover to View Details
+                                        </span>
+                                        <span class="flip-arrow-icon">
+                                            <i class="bi bi-arrow-up-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back Side: Full Details on Flip -->
+                            <div class="service-flip-back">
+                                <div class="service-back-top">
+                                    <div class="service-back-header">
+                                        <div class="service-back-icon">
+                                            <i class="bi bi-person-vcard-fill"></i>
+                                        </div>
+                                        <div>
+                                            <span class="service-back-tag">Identity & Civil</span>
+                                            <h4 class="service-back-title">Aadhaar Card | Voter ID | Marriage Certificate</h4>
+                                        </div>
+                                    </div>
+                                    <p class="service-back-desc">Quick identity document updates and hassle-free marriage registration in Gurugram and Haryana.</p>
+                                    <ul class="service-detail-list">
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Aadhaar Name, Address, Date of Birth & Mobile Number Update</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>New Voter ID (EPIC) Application, Correction & Address Shifting</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Hindu & Special Marriage Act Registration & Appointment</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Tatkal Marriage Certificate & Apostle / Embassy Attestation</span></li>
+                                    </ul>
+                                </div>
+                                <div class="service-back-actions">
+                                    <a href="#enquireModal" data-bs-toggle="modal" data-service="Aadhaar Card | Voter ID | Marriage Certificate" class="btn-flip-enquire">
+                                        Enquire Now <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                    <a href="https://wa.me/919818899228?text=Hello%20AAA%20Consultation,%20I%20need%20assistance%20with%20Aadhaar%20Card,%20Voter%20ID,%20or%20Marriage%20Certificate." class="btn-flip-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp Enquiry for Aadhaar Card | Voter ID | Marriage Certificate">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 service-card-col" data-service-id="legal-deeds" data-keywords="deed sale gift relinquishment lease rent agreement gpa will stamp registry">
+                    <div class="service-flip-card" tabindex="0" role="region" aria-label="Any Type of Deed">
+                        <div class="service-flip-inner">
+                            <!-- Front Side: Image + Heading -->
+                            <div class="service-flip-front">
+                                <div class="service-flip-img-wrap">
+                                    <img src="https://media.istockphoto.com/id/525176867/photo/deed-to-a-house.jpg?s=612x612&w=0&k=20&c=yJA-_Jx5UNxrdcmR0EcVe8OKW0epjsvnqKjMF30CS6k=" alt="Any Type of Deed" class="service-flip-img" />
+                                    
+                                    <span class="service-flip-num">09</span>
+                                    <div class="service-flip-icon-float">
+                                        <i class="bi bi-pen-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="service-flip-body">
+                                    <h4 class="service-flip-title">Any Type of Deed</h4>
+                                    <p class="service-flip-sub">Sale Deed, Gift Deed, GPA, Will & Rent Agreements</p>
+                                    <div class="service-flip-footer">
+                                        <span class="flip-hint">
+                                            <i class="bi bi-arrow-repeat"></i> Hover to View Details
+                                        </span>
+                                        <span class="flip-arrow-icon">
+                                            <i class="bi bi-arrow-up-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Back Side: Full Details on Flip -->
+                            <div class="service-flip-back">
+                                <div class="service-back-top">
+                                    <div class="service-back-header">
+                                        <div class="service-back-icon">
+                                            <i class="bi bi-pen-fill"></i>
+                                        </div>
+                                        <div>
+                                            <span class="service-back-tag">Tehsil & Registry</span>
+                                            <h4 class="service-back-title">Any Type of Deed</h4>
+                                        </div>
+                                    </div>
+                                    <p class="service-back-desc">Professional legal drafting, e-stamp paper procurement, and Sub-Registrar (Tehsil) registration support.</p>
+                                    <ul class="service-detail-list">
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Sale Deed, Conveyance Deed & Agreement to Sell Drafting</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Gift Deed, Relinquishment Deed & Family Settlement Deed</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>General / Special Power of Attorney (GPA / SPA) & Will Registry</span></li>
+                                        <li><i class="bi bi-check-circle-fill"></i><span>Registered Lease / Rent Agreement & E-Stamping Assistance</span></li>
+                                    </ul>
+                                </div>
+                                <div class="service-back-actions">
+                                    <a href="#enquireModal" data-bs-toggle="modal" data-service="Any Type of Deed" class="btn-flip-enquire">
+                                        Enquire Now <i class="bi bi-arrow-right ms-1"></i>
+                                    </a>
+                                    <a href="https://wa.me/919818899228?text=Hello%20AAA%20Consultation,%20I%20need%20assistance%20with%20Legal%20Deed%20Drafting%20&%20Registration." class="btn-flip-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp Enquiry for Any Type of Deed">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-cta-wrap text-center">
+                <p class="services-cta-note">
+                    Need help with a custom government liaison or document not listed above?
+                </p>
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                    <a href="#enquireModal" data-bs-toggle="modal" data-service="General Documentation Enquiry" class="btn-services-cta">
+                        Request Custom Assistance <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                    <a href="https://wa.me/919818899228" class="btn-whatsapp" target="_blank" rel="noopener">
+                        <i class="bi bi-whatsapp me-2"></i> Call / WhatsApp +91 98188 99228
+                    </a>
+                </div>
+            </div>
+
         </div>
-
-        <div class="why-node why-node-tl">
-          <div class="why-icon"><i class="bi bi-shield-fill-check"></i></div>
-        </div>
-
-        <div class="why-node why-node-tr">
-          <div class="why-icon"><i class="bi bi-currency-rupee"></i></div>
-        </div>
-
-        <div class="why-node why-node-bl">
-          <div class="why-icon"><i class="bi bi-people-fill"></i></div>
-        </div>
-
-        <div class="why-node why-node-br">
-          <div class="why-icon"><i class="bi bi-house-door-fill"></i></div>
-        </div>
-      </div>
-
-      <div class="why-label why-label-tl">
-        <h5>Trust &amp; Security</h5>
-        <p>Your information is handled with complete confidentiality.</p>
-        <span class="why-underline"></span>
-      </div>
-
-      <div class="why-label why-label-tr">
-        <h5>Transparent Pricing</h5>
-        <p>No hidden charges. Clear and upfront pricing.</p>
-        <span class="why-underline"></span>
-      </div>
-
-      <div class="why-label why-label-bl">
-        <h5>Verified Experts</h5>
-        <p>Experienced team with in-depth knowledge of government procedures.</p>
-        <span class="why-underline"></span>
-      </div>
-
-      <div class="why-label why-label-br">
-        <h5>Convenient Doorstep Services</h5>
-        <p>Document collection and delivery assistance at your location.</p>
-        <span class="why-underline"></span>
-      </div>
-
-    </div>
-
-    <div class="why-cta-wrap">
-      <a href="contact.html" class="btn-why-cta">
-        Get Started Now <i class="bi bi-arrow-right ms-2"></i>
-      </a>
-    </div>
-
-  </div>
-</section>
+    </section>
 
 
     <section class="process-section">
@@ -342,23 +831,543 @@
 
 
 
+  <!-- trust section  -->
 
 
+  
+    <section class="trust-compare-section">
+    <div class="container">
+        <div class="trust-compare-inner">
 
+            <div class="trust-compare-header">
+                <div class="trust-compare-tagline">
+                    <span class="trust-compare-line"></span>
+                    <span>Trust Signals</span>
+                </div>
+                <h2 class="trust-compare-title">
+                    Why 10,000+ People Choose Us<br />
+                    Over <span class="text-highlight">Everyone Else.</span>
+                </h2>
+                <p class="trust-compare-subtitle">
+                    We're not just another local agent. We're Gurugram &amp; Haryana's trusted,
+                    experienced liaison experts built entirely around your peace of mind.
+                </p>
+            </div>
 
+            <div class="row g-4 align-items-stretch">
+                
+                <div class="col-lg-6">
+                    <div class="compare-table-card h-100">
+                        <div class="table-responsive h-100">
+                            <table class="table compare-table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="col-feature">
+                                            <span class="th-sub">FEATURE</span>
+                                            <span class="th-main">What Matters</span>
+                                        </th>
+                                        <th class="col-others text-center">
+                                            <span class="th-sub">OTHERS</span>
+                                            <span class="th-main">Agents / Portals</span>
+                                        </th>
+                                        <th class="col-us text-center">
+                                            <span class="th-sub">US</span>
+                                            <span class="th-main text-orange">AAA Consultation</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="feature-name">Verified Liaison &amp; Legal Experts</td>
+                                        <td class="text-center"><span class="icon-cross"><i class="bi bi-x-lg"></i></span></td>
+                                        <td class="text-center"><span class="icon-check"><i class="bi bi-check-lg"></i></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="feature-name">Doorstep Pickup &amp; Zero Queues</td>
+                                        <td class="text-center"><span class="icon-cross"><i class="bi bi-x-lg"></i></span></td>
+                                        <td class="text-center"><span class="icon-check"><i class="bi bi-check-lg"></i></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="feature-name">Transparent Pricing – No Hidden Fees</td>
+                                        <td class="text-center"><span class="icon-cross"><i class="bi bi-x-lg"></i></span></td>
+                                        <td class="text-center"><span class="icon-check"><i class="bi bi-check-lg"></i></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="feature-name">Dedicated Case Manager</td>
+                                        <td class="text-center"><span class="icon-cross"><i class="bi bi-x-lg"></i></span></td>
+                                        <td class="text-center"><span class="icon-check"><i class="bi bi-check-lg"></i></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="feature-name">WhatsApp Real-Time Status Updates</td>
+                                        <td class="text-center"><span class="icon-cross"><i class="bi bi-x-lg"></i></span></td>
+                                        <td class="text-center"><span class="icon-check"><i class="bi bi-check-lg"></i></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="feature-name">10+ Years Experience in Haryana</td>
+                                        <td class="text-center"><span class="icon-cross"><i class="bi bi-x-lg"></i></span></td>
+                                        <td class="text-center"><span class="icon-check"><i class="bi bi-check-lg"></i></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="feature-name">100% Confidential Handling</td>
+                                        <td class="text-center"><span class="icon-cross"><i class="bi bi-x-lg"></i></span></td>
+                                        <td class="text-center"><span class="icon-check"><i class="bi bi-check-lg"></i></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-6">
+                    <div class="trust-cards-stack">
 
+                        <div class="trust-signal-card">
+                            <div class="trust-signal-icon icon-blue">
+                                <i class="bi bi-bank2"></i>
+                            </div>
+                            <div class="trust-signal-content">
+                                <h5>Authorised Liaison &amp; Documentation Partner</h5>
+                                <span class="trust-signal-sub">Gurugram, Haryana &amp; All Over India</span>
+                                <p>Direct procedural expertise across Passport Seva, MCG, HSVP (HUDA), DHBVN, RTO, and Tehsil offices handled by professionals.</p>
+                            </div>
+                        </div>
 
+                        <div class="trust-signal-card">
+                            <div class="trust-signal-icon icon-orange">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="trust-signal-content">
+                                <h5>4.9 / 5 Client Satisfaction Rating</h5>
+                                <span class="trust-signal-sub">Thousands of Verified Happy Clients</span>
+                                <p>Built on years of honest, accurate, and fast-track documentation service in Gurugram. Real people, real approvals — zero stress.</p>
+                            </div>
+                        </div>
 
-    <section class="cta-section">
-        <div class="container">
-            <h2 class="mb-3">Kaam Ki Tension Chhodo, PaperPandit Ko Bolo!</h2>
-            <p class="mb-4">Har document, har approval — ek call pe solve.</p>
-            <a href="contact.html" class="btn-cta-light">
-                <i class="bi bi-telephone me-2"></i>Book Free Consultation
-            </a>
+                        <div class="trust-signal-card">
+                            <div class="trust-signal-icon icon-green">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                            <div class="trust-signal-content">
+                                <h5>Zero Hidden Charges – Ever</h5>
+                                <span class="trust-signal-sub">What We Quote Is Exactly What You Pay</span>
+                                <p>We tell you the complete fee &amp; government charges upfront. No surprises, no last-minute add-ons. Full transparency from day one.</p>
+                            </div>
+                        </div>
+
+                        <div class="trust-signal-card">
+                            <div class="trust-signal-icon icon-whatsapp">
+                                <i class="bi bi-whatsapp"></i>
+                            </div>
+                            <div class="trust-signal-content">
+                                <h5>Real-Time WhatsApp Updates</h5>
+                                <span class="trust-signal-sub">Never Left in the Dark</span>
+                                <p>Track every stage of your file — from document verification and submission to final doorstep delivery — directly on WhatsApp.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
+
+
+
+
+
+<!-- action hub section  -->
+<section class="action-hub-section">
+    <div class="container">
+        <div class="action-hub-inner">
+
+            <div class="row g-5 align-items-center">
+                
+                <div class="col-lg-7">
+                    <div class="action-hub-header">
+                        <div class="action-hub-tagline">
+                            <span class="action-hub-line"></span>
+                            <span>Your Final Solution</span>
+                        </div>
+                        <h2 class="action-hub-title">
+                            Stop Searching.<br />
+                            Start Here. <span class="text-highlight">End Here.</span>
+                        </h2>
+                        <p class="action-hub-subtitle">
+                            Everything you need to get any Indian document – first question to final delivery – handled completely under one roof.
+                        </p>
+                    </div>
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="hub-step-card">
+                                <div class="hub-step-num">01</div>
+                                <h5>Search &amp; Select Your Document</h5>
+                                <p>Use the search bar or click a service. Know instantly what you need, the cost, and timeline.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="hub-step-card">
+                                <div class="hub-step-num">02</div>
+                                <h5>Fill the Quick Form – Takes 2 Mins</h5>
+                                <p>Tell us your name, contact, and the document you need. We do the rest.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="hub-step-card">
+                                <div class="hub-step-num">03</div>
+                                <h5>We Call You Within 30 Mins</h5>
+                                <p>A dedicated case manager contacts you, explains the process, and kicks off your application.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="hub-step-card">
+                                <div class="hub-step-num">04</div>
+                                <h5>Track on WhatsApp &amp; Doorstep Delivery</h5>
+                                <p>Real-time WhatsApp updates throughout. Your document delivered to your doorstep – zero trips required.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="hub-form-card">
+                        <div class="hub-form-header">
+                            <span class="hub-badge-callback"><i class="bi bi-headset me-1"></i> Free Callback</span>
+                            <h3>Apply in 2 Minutes</h3>
+                            <p>Our team will contact you within 30 minutes</p>
+                        </div>
+                        <form class="hub-form-body">
+                            <div class="mb-3">
+                                <label class="form-label">Full Name *</label>
+                                <input type="text" class="form-control" placeholder="Your full name" required />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Mobile Number *</label>
+                                <input type="tel" class="form-control" placeholder="10-digit mobile number" required />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Document Required *</label>
+                                <select class="form-select" required>
+                                    <option value="" selected disabled>Select a service...</option>
+                                    <option value="passport">Passport Services</option>
+                                    <option value="property">Property Tax / NDC</option>
+                                    <option value="rto">RTO & Transport</option>
+                                    <option value="certificate">Birth / Death Certificate</option>
+                                    <option value="pan">PAN / Aadhaar Update</option>
+                                    <option value="deed">Legal Deed / Registry</option>
+                                </select>
+                            </div>
+                            <div class="row g-2 mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">State *</label>
+                                    <select class="form-select" required>
+                                        <option value="" selected disabled>Select state...</option>
+                                        <option value="haryana">Haryana</option>
+                                        <option value="delhi">Delhi NCR</option>
+                                        <option value="other">Other State</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">District *</label>
+                                    <input type="text" class="form-control" placeholder="e.g. Gurugram" required />
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label">Pin Code *</label>
+                                <input type="text" class="form-control" placeholder="6-digit pin code" required />
+                            </div>
+                            <button type="submit" class="btn-hub-submit">
+                                Submit Application <i class="bi bi-arrow-right ms-2"></i>
+                            </button>
+                            <div class="hub-form-secure">
+                                <i class="bi bi-shield-check text-success me-1"></i> Your details are 100% safe with us
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- partners section -->
+
+<section class="partners-section">
+    <div class="container">
+        <div class="partners-header text-center">
+            <span class="partners-tagline">Associated With</span>
+        </div>
+        
+        <div class="marquee-container">
+            <div class="marquee-track">
+                
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/CSC.png" alt="CSC" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/paytm.png" alt="Paytm" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/go_daddy.png" alt="GoDaddy" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/turtlemint.png" alt="Turtlemint" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/gromo.png" alt="Gromo" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/digilocker.png" alt="Digilocker" class="partner-logo">
+                </div>
+
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/CSC.png" alt="CSC" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/paytm.png" alt="Paytm" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/go_daddy.png" alt="GoDaddy" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/turtlemint.png" alt="Turtlemint" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/gromo.png" alt="Gromo" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/digilocker.png" alt="Digilocker" class="partner-logo">
+                </div>
+
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/CSC.png" alt="CSC" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/paytm.png" alt="Paytm" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/go_daddy.png" alt="GoDaddy" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/turtlemint.png" alt="Turtlemint" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/gromo.png" alt="Gromo" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/digilocker.png" alt="Digilocker" class="partner-logo">
+                </div>
+
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/CSC.png" alt="CSC" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/paytm.png" alt="Paytm" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/go_daddy.png" alt="GoDaddy" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/turtlemint.png" alt="Turtlemint" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/gromo.png" alt="Gromo" class="partner-logo">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/images/main_page_images/partners_imges/digilocker.png" alt="Digilocker" class="partner-logo">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- testimonial section -->
+
+
+<section class="simple-testimonial-section">
+    <div class="container">
+        
+        <div class="testimonial-header text-center">
+            <div class="testimonial-tagline">
+                <span class="testimonial-line"></span>
+                <span>Client Testimonials</span>
+                <span class="testimonial-line"></span>
+            </div>
+            <h2 class="testimonial-title">
+                What Our Clients Say <span class="text-highlight">About Us</span>
+            </h2>
+            <p class="testimonial-subtitle">
+                Real experiences from people who trusted us with their documentation and liaison services.
+            </p>
+        </div>
+
+        <div class="testimonial-slider-wrap">
+            <button type="button" class="slider-arrow slider-prev" aria-label="Previous Slide">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+
+            <div class="testimonial-track">
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "My passport renewal and police clearance certificate were completed within just 4 days without standing in any long queues. Truly a fantastic and seamless service!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div>
+                            <h5 class="author-name">Rohit Kumar</h5>
+                            <span class="author-loc">DLF Phase 3, Gurugram</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "I struggled for weeks trying to correct my MCG property tax ID and obtain an NDC, but AAA Consultation resolved it in just one day. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar bg-blue">AS</div>
+                        <div>
+                            <h5 class="author-name">Amit Sharma</h5>
+                            <span class="author-loc">Sohna Road, Gurugram</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Their team handled our court marriage registration and legal affidavits with utmost professionalism, saving us from multiple stressful court visits."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar bg-orange">PS</div>
+                        <div>
+                            <h5 class="author-name">Priya Singh</h5>
+                            <span class="author-loc">Sector 56, Gurugram</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Getting a new DHBVN electricity meter connection was completely hassle-free. They managed all documentation and application follow-ups strictly on time."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">VM</div>
+                        <div>
+                            <h5 class="author-name">Vikram Malhotra</h5>
+                            <span class="author-loc">Golf Course Road, Gurugram</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Vehicle RC transfer and hypothecation removal were completed smoothly without ever visiting the RTO office. Exceptional support and regular updates."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar bg-blue">NS</div>
+                        <div>
+                            <h5 class="author-name">Neha Sharma</h5>
+                            <span class="author-loc">Cyber City, Gurugram</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Adding my child's name to the birth certificate felt like an uphill task at the municipal corporation, but they handled it quickly and efficiently."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar bg-orange">AK</div>
+                        <div>
+                            <h5 class="author-name">Alok Kapoor</h5>
+                            <span class="author-loc">Palam Vihar, Gurugram</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The best service for name change gazette notifications and newspaper ad publications. All documents were legally verified and processed correctly."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DP</div>
+                        <div>
+                            <h5 class="author-name">Deepak Parmar</h5>
+                            <span class="author-loc">Sector 14, Gurugram</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Updating my mobile number and address on my Aadhaar card was effortless thanks to their doorstep pickup and delivery service. Outstanding experience!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar bg-blue">SK</div>
+                        <div>
+                            <h5 class="author-name">Sunita Kumari</h5>
+                            <span class="author-loc">MG Road, Gurugram</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="button" class="slider-arrow slider-next" aria-label="Next Slide">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- cta section -->
+    <section class="cta-section">
+    <div class="container">
+        <h2 class="mb-3">Leave the Work Stress Behind, Call AAA Consultation!</h2>
+        <p class="mb-4">Every document, every approval — solved with a single call.</p>
+        <a href="contact.html" class="btn-cta-light">
+            <i class="bi bi-telephone me-2"></i>Book Free Consultation
+        </a>
+    </div>
+</section>
 
     <div id="footer-placeholder"></div>
 
